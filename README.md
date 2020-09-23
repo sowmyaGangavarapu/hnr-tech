@@ -1,4 +1,4 @@
-# appiness-pizza
+# hnr-tech-project
 
 ## Project setup
 ```
