@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  header{
+    z-index: 1;
+    position: fixed;
+    background: #fff;
+    padding: 20px;
+    width: calc(100% - 0%);
+    top: 0;
+    height: 79px;
+    box-shadow: 0px 2px 3px #ccc;
+  } 
+  .left_area h3{
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900;
+  }
+   .left_area span{
+    color: #19B3D3;
+  }
+  
+  .home_btn{
+    padding: 5px;
+    background: #19B3D3;
+    text-decoration: none;
+    float: right;
+    margin-top: -47px;
+    margin-right: 40px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.5s;
+    transition-property: background;
+  }
+  
+  .home_btn:hover{
+    background: #0B87A6;
+    text-decoration: none;
+    color:white;
+  }
+  
+  .content{
+    width:100%;
+    margin-top: 40px;
+    padding: 80px 50px;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    transition: 0.5s;
+    background-color: #eee;
+  }
+  
+  .content .card p{
+    background: #fff;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  /* ------table styles------ */
+  .table thead{
+      background-color: #2dbeda;
+      color:#fff;
+      font-size: 17px;
+  }
+  .table td,.table th{
+      padding:0.75rem;
+      padding: 12px;
+      font-size: 17px;
+      text-transform: capitalize;
+  }
+  .card_inner{
+      padding: 30px;
+  }
+  .heading_card{
+     padding: 15px 20px; 
+     margin-bottom: 30px; 
+  }
+  .heading_card h3{
+     margin: 0px;
+     font-size: 27px;
+  }
+  .my-btn{
+    border: medium none;
+    border-radius: 0;
+    color: #fff;
+    display: inline-block;
+    font-weight: 400;
+    padding: 5px 10px;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    background-color: #2dbeda;
+  }
+  /* Responsive CSS */ 
+  @media screen and (max-width: 780px){  
+    .content{
+      margin-left: 0;
+      margin-top: 0;
+      padding: 10px 20px;
+      transition: 0s;
+    }  
+  }
+                             
